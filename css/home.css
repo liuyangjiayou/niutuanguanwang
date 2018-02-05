@@ -1,0 +1,535 @@
+html,body{
+    font-family: "Microsoft YaHei UI Light";
+    width: 100%;
+    height: 100%;
+    -moz-user-select: none;
+    user-select: none;
+}
+body{
+
+}
+/*第一个固定背景*/
+.fixed-bg1{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background: url("../img/shouping.png") no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.fixed-bg1 .longImg{
+    /*position: absolute;*/
+    /*top: .35rem;*/
+    /*left: 1.4rem;*/
+    margin-top: .35rem;
+    margin-left: 1.4rem;
+    width: 2.4rem;
+    height: .75rem;
+}
+.fixed-bg1 .btn{
+    position: absolute;
+    top: 0;
+    right: 1.2rem;
+    /*margin-top: -1.1rem;*/
+    /*margin-left: 15.15rem;*/
+}
+.fixed-bg1 .btn a{
+
+    font-size: .14rem;
+    font-weight: 900;
+    color: #e50011;
+}
+.fixed-bg1 .btn a:hover{
+    color: #e66065;
+    cursor: pointer;
+}
+.fixed-bg1 .QRcode{
+    /*position: absolute;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*top: 4.8rem;*/
+    /*left: 10.68rem;*/
+    margin-top: 3.7rem;
+    margin-left: 10.68rem;
+    width: 5.9rem;
+    min-width: 124px;
+    font-size: 0;
+}
+.fixed-bg1 .QRcode .android{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    display: inline-block;
+    font-size: .35rem;
+    font-weight: 900;
+}
+.fixed-bg1 .QRcode .ios{
+    margin-left: .5rem;
+}
+.fixed-bg1 .android img{
+    width: 2.33rem;
+    height: 2.33rem;
+    border: .04rem solid #bbb8b8;
+}
+.fixed-bg1 .android p{
+    margin-top: .2rem;
+    margin-bottom: .3rem;
+    text-align: center;
+}
+.fixed-bg1 .android a{
+    display: block;
+    outline: none;
+    width: 2.2rem;
+    height: .49rem;
+    line-height: .49rem;
+    background: #d7d0ce;
+    text-align: center;
+    border: 2px solid #bdb9b8;
+    border-radius: .1rem;
+    font-size: .27rem;
+    font-weight: 900;
+    color: #272636;
+    cursor: pointer;
+}
+.fixed-bg1 .android a:hover{
+    background: #e51625;
+    border: 2px solid #ef707a;
+    color: #fff;
+}
+/*第一个移动背景*/
+.fixed-bg-box1{
+    width: 100%;
+    height: 5.57rem;
+    background-color: #fff;
+    font-size: 0;
+}
+.fixed-bg-box1 img{
+    width: 100%;
+    height: 100%;
+}
+.fixed-bg-box1 .left{
+    padding-left: 3.24rem;
+}
+.fixed-bg-box1 .left .left-img{
+    width: 4rem;
+    height: 4rem;
+}
+.fixed-bg-box1 .left .title-wushiti{
+    margin-top: -0.5rem;
+    margin-left: 1.08rem;
+    width: 4rem;
+    height: .8rem;
+}
+.fixed-bg-box1 .left .text{
+    margin-top: .25rem;
+    margin-left: .98rem;
+    font-size: .28rem;
+    font-weight: 900;
+    color: #333;
+}
+.fixed-bg-box1 .content img{
+    width: .76rem;
+    height: .28rem;
+
+}
+.fixed-bg-box1 .right{
+    padding-top: .33rem;
+    padding-left: 2rem;
+}
+.fixed-bg-box1 .right img{
+    width: 4rem;
+    height: 4rem;
+
+}
+/*IE不兼容flex,改*/
+.fixed-bg-box1 .left img{
+    display: block;
+}
+.fixed-bg-box1 .left,.fixed-bg-box1 .content,.fixed-bg-box1 .right{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*第二个固定背景*/
+.fixed-bg2{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background: url("../img/bg-yifu.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/*第二个移动背景*/
+.fixed-bg-box2{
+    width: 100%;
+    height: 7.2rem;
+    background: #fff;
+}
+.icon-box {
+    margin-left: 2rem;
+    font-size: 0;
+}
+.icon-box li{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin-top: 1.67rem;
+    margin-right: 1.9rem;
+    width: 3.67rem;
+    height: 4.33rem;
+    border: 0.04rem solid #c1c1c1;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.icon-box li.item-3{
+    margin-right: 0;
+}
+.icon-box li .icon-text{
+    position: absolute;
+    left: 50%;
+    bottom: .28rem;
+    margin-left: -.75rem;
+    width: 1.5rem;
+    height: .3rem;
+
+}
+.icon-box li .icon-img{
+    position: absolute;
+    top: 1.03rem;
+    left: 50%;
+    margin-left: -1.1rem;
+    width: 2.21rem;
+    height: 2.21rem;
+}
+.icon-box li .bg-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: .3rem .2rem 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    font-size: .12rem;
+    opacity: 0;
+}
+.icon-box li .bg-box p{
+    text-indent: 35px;
+    line-height: .4rem;
+}
+
+
+/*第三个固定背景*/
+.fixed-bg3{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background: url("../img/bg-chabei.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/*第三个可移动的模块*/
+.fixed-bg-box3{
+    position: relative;
+    width: 100%;
+    height: 7.68rem;
+    background: #fff;
+}
+.fixed-bg-box3 .bg-tiao{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .22rem;
+    /*background: url(../img/bg-tiao.jpg) no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: top;*/
+    background: #333;
+    box-shadow: 1px -3.5px 6px #666;
+    z-index: 999;
+}
+
+/*这是所有图片的公共样式*/
+.imgList-title{
+    position: absolute;
+    top: .6rem;
+    left: 50%;
+    margin-left: -3.42rem;
+    width: 6.84rem;
+    height: .7rem;
+}
+.imgList-title img{
+    width: 100%;
+    height: 100%;
+}
+.img-list li{
+
+    position: absolute;
+    bottom: 3px;
+    border: 3px solid #999;
+    background: #fff;
+    border-radius: .15rem;
+    box-shadow: -1px -1px 6px #333;
+    z-index: 2;
+    cursor: pointer;
+}
+.img-list li img{
+    position: absolute;
+    top: 0.04rem;
+    left: 0.04rem;
+    width: 97%;
+    height: 97%;
+    border-radius: .03rem;
+}
+.img-list li .bg-zhezhao{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: .15rem;
+    background: #fff;
+    opacity: .3;
+}
+/*这是第一张图片的样式*/
+.fixed-bg-box3 .img-item-box1{
+    left: 2.3rem;
+    width: 1.83rem;
+    height: 2.02rem;
+    z-index: 2;
+}
+.fixed-bg-box3 .img-item-box2{
+    left: 4rem;
+    width: 2.66rem;
+    height: 2.47rem;
+    z-index: 1;
+}
+.fixed-bg-box3 .img-item-box3{
+    left: 5.6rem;
+    width: 1.61rem;
+    height: 1.05rem;
+    z-index: 2;
+}
+#img-3{
+    left: .02rem;
+}
+.fixed-bg-box3 .img-item-box4{
+    left: 6.2rem;
+    width: 2.95rem;
+    height: 4.15rem;
+    z-index: 0;
+}
+.fixed-bg-box3 .img-item-box5{
+    left: 8.55rem;
+    width: 1.7rem;
+    height: 2rem;
+    z-index: 2;
+}
+.fixed-bg-box3 .img-item-box6{
+    left: 8.93rem;
+    width: 2.5rem;
+    height: 3.1rem;
+    z-index: 1;
+}
+.fixed-bg-box3 .img-item-box7{
+    left: 11.12rem;
+    width: 4.28rem;
+    height: 3.65rem;
+    z-index: 2;
+}
+#img-7{
+    left: .05rem;
+}
+.fixed-bg-box3 .img-item-box8{
+    left: 11rem;
+    width: 1.43rem;
+    height: 1.17rem;
+    z-index: 3;
+}
+.fixed-bg-box3 .img-item-box9{
+    left: 15.03rem;
+    width: 1.76rem;
+    height: 2rem;
+    z-index: 3;
+}
+.fixed-bg-box3 .img-item-box10{
+    left: 16.6rem;
+    width: 1.5rem;
+    height: 1.1rem;
+    z-index: 2;
+}
+
+
+
+/*第四个移动的背景*/
+.fixed-bg4{
+    padding-top: 1.13rem;
+    padding-bottom: .73rem;
+    width: 100%;
+    height: 6.17rem;
+    background: #423d3d;
+    border-bottom: 1px solid #a9a9a8;
+}
+.fixed-bg4 .jiaru-img{
+    margin: 0 auto;
+    width: 5rem;
+    height: .8rem;
+}
+.fixed-bg4 .jiaru-img img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.fixed-bg4 .QRcode{
+    margin: 1.17rem auto 0;
+    width: 5.9rem;
+    min-width: 124px;
+    font-size: 0;
+}
+.fixed-bg4 .QRcode .android{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    display: inline-block;
+    font-size: .35rem;
+    font-weight: 900;
+}
+.fixed-bg4 .QRcode .ios{
+    margin-left: .5rem;
+}
+.fixed-bg4 .android img{
+    width: 2.33rem;
+    height: 2.33rem;
+    border: .04rem solid #bbb8b8;
+}
+.fixed-bg4 .android p{
+    margin-top: .2rem;
+    margin-bottom: .3rem;
+    text-align: center;
+    color: #fff;
+}
+.fixed-bg4 .android a{
+    display: block;
+    outline: none;
+    width: 2.2rem;
+    height: .49rem;
+    line-height: .49rem;
+    background: #d7d0ce;
+    text-align: center;
+    border: 2px solid #bdb9b8;
+    border-radius: .1rem;
+    font-size: .27rem;
+    font-weight: 900;
+    color: #272636;
+    cursor: pointer;
+}
+.fixed-bg4 .android a:hover{
+    background: #e51625;
+    border: 2px solid #ef707a;
+    color: #fff;
+}
+.fixed-bg-box3 .box .img{
+    display: inline-block;
+}
+    /*第五个可移动背景*/
+.fixed-bg5{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .4rem;
+    width: 100%;
+    background: #fff;
+    font-size: .24rem;
+    font-weight: 800;
+    color: #272636;
+}
+.fixed-bg5 ul{
+    padding-top: 1.10rem;
+    padding-left: 4.48rem;
+    font-size: 0;
+}
+
+.fixed-bg5 ul li{
+    display: inline-block;
+    margin-right: 2rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+.fixed-bg5 .address-box{
+
+    margin-top: .84rem;
+    padding-left: 4.48rem;
+    font-size: 0;
+}
+.fixed-bg5 .address-box .phone-code{
+    margin-bottom: .35rem;
+}
+.fixed-bg5 .address-box .img-box1,.fixed-bg5 .address-box .img-box{
+    display: inline-block;
+    align-items: center;
+    margin-left: 1.22rem;
+    font-size: 14px;
+}
+.fixed-bg5 .address-box .img-box1{
+    margin-left: 0;
+}
+.fixed-bg5 .address-box img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.fixed-bg5 .address-box .img-box p{
+    font-size: .14rem;
+    text-align: center;
+}
+
+/*老一版本的 第三个移动背景*/
+/*
+.fixed-bg-box3{
+    padding-top: .5rem;
+    padding-bottom: .37rem;
+    width: 100%;
+    !*height: 6.7rem;*!
+    background: url('../img/bg-img3.png') no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.fixed-bg-box3 .box{
+    margin: 0 auto;
+    width: 14rem;
+    height: 4.13rem;
+    font-size: 0;
+    !*display: flex;*!
+    !*flex-direction: row;*!
+    !*justify-content: center;*!
+}
+.fixed-bg-box3 .box img{
+    width: 4rem;
+    height: 4rem;
+    min-width: 200px;
+    min-height: 200px;
+}
+.fixed-bg-box3 .box .shangjia-img{
+    margin-top: -.1rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+.fixed-bg-box3 .centent-text img{
+    margin-left: 4.28rem;
+    width: 2.6rem;
+    height: .8rem;
+}
+.fixed-bg-box3 .centent-text p{
+    margin-top: .25rem;
+    margin-left: 3.89rem;
+    font-size: .32rem;
+    font-weight: 900;
+    color: #333;
+}
+.fixed-bg-box3 .centent-text p span{
+    color: #e51625;
+}*/
